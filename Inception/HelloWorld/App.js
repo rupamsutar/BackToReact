@@ -13,9 +13,15 @@ const headingNew = (
     </h1>
 )
 
+const Title = () => (
+    <h1 id="title">This is the Title</h1>
+)
+
+//Component Composition
 const HeadingComponent = () => (
     <div id='container'>
-        <h1>Namaste React Functional Component ! ❤️</h1>
+        <Title />
+        <h2>Namaste React Functional Component ! ❤️</h2>
     </div>
 )
 
