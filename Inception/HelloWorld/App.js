@@ -21,6 +21,8 @@ const Title = () => (
 const HeadingComponent = () => (
     <div id='container'>
         <Title />
+        <Title></Title>
+        {Title()}
         <h2>Namaste React Functional Component ! ❤️</h2>
     </div>
 )
